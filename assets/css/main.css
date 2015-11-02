@@ -2469,7 +2469,7 @@ ul.icons.labeled li .icon .label {
 }
 
 .steps {
-    list-style: decimal;
+    list-style: none;
     margin: 0 0 2em 0;
     padding-left: 1em;
 }
@@ -2505,6 +2505,11 @@ ul.icons.labeled li .icon .label {
     }
     ul.icons.labeled li:first-child {
         margin-top: 0;
+    }
+    .steps {
+        list-style: decimal;
+        margin: 0 0 2em 0;
+        padding-left: 1em;
     }
 }
 
@@ -2601,6 +2606,11 @@ ul.actions.fit.small li {
     ul.actions.small li:first-child {
         padding-top: 0;
     }
+    .steps {
+        list-style: none;
+        margin: 0 0 2em 0;
+        padding-left: 1em;
+    }
 }
 
 dl {
@@ -2635,6 +2645,11 @@ header p {
 @media screen and (max-width: 736px) {
     header p br {
         display: none;
+    }
+    .steps {
+        list-style: decimal;
+        margin: 0 0 2em 0;
+        padding-left: 1em;
     }
 }
 
@@ -2677,6 +2692,11 @@ header.major:after {
     }
     header.major p {
         font-size: 1em;
+    }
+    .steps {
+        list-style: decimal;
+        margin: 0 0 2em 0;
+        padding-left: 1em;
     }
 }
 /* Spotlight */
@@ -2752,6 +2772,11 @@ header.major:after {
     .spotlight .content {
         width: 100%;
         text-align: center !important;
+    }
+    .steps {
+        list-style: decimal;
+        margin: 0 0 2em 0;
+        padding-left: 1em;
     }
 }
 /* Table */
